@@ -1,0 +1,88 @@
+.catalog {
+  @include flex(flex-start, flex-start);
+  
+
+  &__filter {
+    margin-top: 50px;
+    width: 20%;
+    @include tablet {
+      width: unset;
+    }
+
+    &__widget {
+      margin-bottom: 2rem;
+
+      &__title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      &__content {
+        color: $txt-second-color;
+
+        &__item {
+          margin-bottom: 12px;
+        }
+        &__button {
+          .button {
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #333;
+            outline: 2px solid #fff;
+            padding: 12px 12px;
+            position: relative;
+            overflow: hidden;
+            transition: color 1s;
+            border-radius: 3px 3px 3px 3px;
+            border: 1px solid #333;
+            z-index: 1;
+          }
+
+          .button:hover {
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+          }
+
+          .button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -50px;
+            width: 150%;
+            height: 100%;
+            background-color: #e11010;
+            transform: scaleX(0) skewX(20deg);
+            transform-origin: left;
+            z-index: -1;
+            transition: transform 0.2s;
+          }
+
+          .button:hover::before {
+            transform: scaleX(1) skewX(20deg);
+          }
+        }
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 50px;
+    flex-grow: 1;
+
+    @include tablet {
+      width: 100%;
+    }
+  }
+}
+.catalog_range{
+  margin-left: 90%;
+  @include tablet{
+    margin-left: 50%;
+    margin-top: 30%;
+  }
+}

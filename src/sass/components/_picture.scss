@@ -1,0 +1,129 @@
+.picture {
+  @include flex(center, center);
+
+  // &__img{
+  //     width: 100%;
+  //     height: 100%;
+  //     object-fit: cover;
+  // }
+  .picture-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    &__title {
+      position: absolute;
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 2.5rem;
+      color: #fff;
+      text-transform: uppercase;
+      margin-top: 400px;
+      margin-left: 30px;
+      font-weight: bold;
+      text-align: center;
+      word-spacing: 1px;
+
+      span {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 200;
+        margin-top: 10px;
+      }
+    }
+    &__center {
+      position: absolute;
+      width: 180px;
+      height: 60px;
+      
+      .btn {
+        color:#cbba9c ;
+        font-size: 15px;
+        margin-top: 500px;
+        margin-left: 150px;
+        
+        width: 150px;
+        height: 60px;
+        cursor: pointer;
+        background: transparent;
+        border: 3px solid #cbba9c;
+        border-radius: 0;
+        // background: #cbba9c;
+        outline: none;
+        transition: 1s ease-in-out;
+        
+        
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        fill: none;
+        stroke: #fff;
+        stroke-dasharray: 150 480;
+        stroke-dashoffset: 150;
+        transition: 1s ease-in-out;
+      }
+
+      .btn:hover {
+        transition: 1s ease-in-out;
+        
+      }
+
+      .btn:hover svg {
+        stroke-dashoffset: -480;
+      }
+
+      .btn span {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+      }
+    }
+  }
+  .picture-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    &__title {
+      position: absolute;
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 46px;
+      color: #cbba9c;
+      text-transform: uppercase;
+      margin-top: 70px;
+      margin-left: 150px;
+      font-weight: bold;
+      text-align: center;
+      word-spacing: 1px;
+      
+      
+
+      
+    }
+
+  }
+  .picture-3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .picture-1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  .picture-2 > img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+
+    
+    
+  }
+  .picture-3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+}

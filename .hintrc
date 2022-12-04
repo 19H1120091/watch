@@ -7,8 +7,10 @@
       "default",
       {
         "ignore": [
+          "-webkit-tap-highlight-color",
           "user-select",
-          "-webkit-tap-highlight-color"
+          "inset",
+          "position: sticky"
         ]
       }
     ]

@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./mixins";
+@import "./base";
+
+
+@import "./components/header";
+@import "./components/footer";
+@import "../sass/components/hero-slider";
+@import "../sass/components/button";
+@import "../sass/components/section";
+@import "../sass/components/policy-card";
+@import "../sass/components/product-card";
+@import "../sass/components/catalog";
+@import "../sass/components/custom-checkbox";
+@import "../sass/components/product";
+@import "../sass/components/product-view-modal";
+@import "../sass/components/card-image";
+@import "../sass/components/picture";
+@import "../sass/components/navbar";
+@import "../sass/components/news";
+@import "../sass/components/product-image-slider";

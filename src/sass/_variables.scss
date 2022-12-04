@@ -1,0 +1,51 @@
+
+$main-bg: #fff;
+$main-color: #333;
+
+$txt-main-color: #000;
+$txt-second-color: #8d8d8d;
+$txt-white: #fff;
+
+$btn-main-bg: $main-color;
+$btn-main-color: #fff;
+
+$header-height: 140px;
+$header-tablet-height: 70px;
+$header-mobile-height: 40px;
+$header-shrink-height: 70px;
+
+$box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+$colors: (
+    "orange": #fbb96b,
+    "pink": #fe7e73,
+    "white": #fff,
+    "black": #000,
+    "main": $main-color,
+    "yellow": #f7d600,
+    "red" : #ff0000,
+    "green" : #00ff00,
+    "blue" : #0000ff,
+    "purple" : #800080,
+    "gray" : #808080,
+    "brown" : #a52a2a,
+    "navy" : #000080,
+    "teal" : #008080,
+    "olive" : #808000,
+    "maroon" : #800000,
+    "lime" : #00ff00,
+    "aqua" : #00ffff,
+    "fuchsia" : #ff00ff,
+    "silver" : #c0c0c0,
+    "gray-dark" : #a9a9a9,
+    "gray-light" : #d3d3d3,
+    "gray-lighter" : #e9ecef,
+    "gray-lightest" : #f8f9fa,
+  
+
+);
+
+$mobile-width: 600px;
+$tablet-width: 1024px;
+
+$numbers: (0, 1, 2, 3, 4, 5, 6, 7, 8);

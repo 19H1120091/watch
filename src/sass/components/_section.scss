@@ -1,0 +1,44 @@
+.section{
+    margin-bottom: 80px;
+
+    & > * ~ * {
+        margin-top: 80px;
+    }
+
+    &__title {
+        font-family: "Helvetica", sans-serif;
+        font-weight: 600;
+        font-size: 3.5rem;
+        line-height: 6.75rem;
+        text-align: center;
+        overflow: hidden;
+        text-transform: uppercase;
+
+        span{
+            color: #cbba9c;
+        }
+        @include mobile {
+            font-size: 1.5rem;
+            line-height: 3.75rem;
+        }
+    }
+    &__carousel{
+        font-family: "Helvetica", sans-serif;
+        font-weight: 600;
+        font-size: 3.5rem;
+        line-height: 6.75rem;
+        text-align: center;
+        overflow: hidden;
+        text-transform: uppercase;
+        margin-top: -130px;
+        span{
+            color: #cbba9c;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 3.75rem;
+            text-transform: none;
+            font-family: "Helvetica", sans-serif;
+        }
+    }
+}
