@@ -314,7 +314,7 @@ const Head = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1" >
-                <Nav.Link href="/" className="text-white  nav-links ">Trang chủ</Nav.Link>
+                <Nav.Link href="/" className="text-white  nav-links ">Hello</Nav.Link>
                   <Nav.Link href="/catalog" className="text-white nav-links ">Đồng hồ thông minh</Nav.Link>
                   <Nav.Link href="/male" className="text-white nav-links ">Đồng hồ nam</Nav.Link>
                   <Nav.Link href="/female" className="text-white nav-links ">Đồng hồ nữ</Nav.Link>
