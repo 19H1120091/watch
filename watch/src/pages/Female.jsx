@@ -9,7 +9,7 @@ import type from "../assets/fake-data/product-type";
 // import Button from "../components/Button";
 import InfinityList from "../components/InfinityList";
 
-const Male = () => {
+const Female = () => {
   const initFilter = {
     category: [],
     color: [],
@@ -226,4 +226,4 @@ const Male = () => {
   );
 };
 
-export default Male;
+export default Female;
