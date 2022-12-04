@@ -26,7 +26,7 @@ import Search from "../pages/Search";
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/watch" exact component={Home} />
+      <Route path="/" exact component={Home} />
       <Route path="/search/:keyword"  component={Search} />
       <Route path="/catalog/:id" component={Product} />
       <Route path="/catalog" component={Catalog} />
